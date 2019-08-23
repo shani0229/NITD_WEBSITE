@@ -1,0 +1,12 @@
+-- Database: nitd_data
+
+-- DROP DATABASE nitd_data;
+
+CREATE DATABASE nitd_data
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'English_India.1252'
+    LC_CTYPE = 'English_India.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
